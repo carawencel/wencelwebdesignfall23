@@ -5,4 +5,11 @@
     background-size: cover;
 }
 h1{ text-align:center;
-color: aliceblue;}
+color: rgb(96, 142, 183);} 
+img{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width:50%;
+    
+}
