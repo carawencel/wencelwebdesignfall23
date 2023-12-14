@@ -5,7 +5,7 @@
     background-size: cover;
 }
 h1{ text-align:center;
-color: rgb(96, 142, 183);} 
+color: rgb(252, 252, 252);} 
 img{
     display: block;
     margin-left: auto;
@@ -13,3 +13,25 @@ img{
     width:50%;
     
 }
+.image{ display: block;
+ margin-left: auto;
+  margin-right:auto ; 
+  width: 50%;
+   border-width: 5px; 
+   border-style: solid;
+   border-color: black;
+   transform-origin: 1s;}
+
+.image:hover{width: 400px;
+     height:400px ; 
+     transition: width,
+      rotate 2s;
+       rotate:360deg;}
+
+body{
+    background-color: bisque;
+}
+.GW{ 
+    background-image:url(../jpgs/gwi.jpeg) ;
+background-position: center center; background-repeat: no-repeat;
+background-size: cover;}
